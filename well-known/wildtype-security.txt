@@ -1,0 +1,15 @@
+# security.txt file for https://www.wildtypefoods.com/ - more info: https://securitytxt.org/
+# (required) Contact email address for security issues
+Contact: rj@turnstyle.studio
+
+# (required) Expiration date for the security information herein
+Expiration: 2027-07-21T16:24:48-07:00
+
+# (optional) OpenPGP key:
+Encryption: https://www.wildtypefoods.com/pgp-key.txt
+
+# (optional) Security policy page:
+Policy: https://www.wildtypefoods.com/security-policy
+
+# (optional) Security acknowledgements page:
+Acknowledgements: https://www.wildtypefoods.com/hall-of-fame

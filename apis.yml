@@ -1,4 +1,16 @@
 aid: wildtype
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wildtype.png
 name: Wildtype
 description: 'Wildtype is a company surfaced as a portfolio company of crv, spark-capital and added to
   the API Evangelist network as a stub for enrichment. Sector: food. This profile is a lead awaiting the
@@ -13,10 +25,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Food
+- Seafood
+- Cultivated Meat
+- Food Technology
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +40,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: VulnerabilityDisclosure
+  url: security/wildtype-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.wildtypefoods.com/security-policy
+- type: DomainSecurity
+  url: security/wildtype-domain-security.yml
+- type: WellKnown
+  url: well-known/wildtype-well-known.yml
+- type: SecurityTxt
+  url: well-known/wildtype-security.txt
 - type: Website
   url: https://www.wildtypefoods.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
